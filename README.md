@@ -1,98 +1,94 @@
 # 🏁 Formula 1 Winner Predictor
 
-Welcome! I’m Nirvaan, and this is my project to predict Formula 1 race winners by combining real-time data and machine learning. Using the Ergast API, the app analyzes current race statistics and driver performance to make informed predictions on upcoming races. The web app is built with Python (Flask) and uses a Random Forest machine learning model under the hood.
+**Author:** Nirvaan Lagishetty
+
+A web application that predicts Formula 1 Grand Prix winners using real-time data from the [Ergast Developer API](https://ergast.com/mrd/) and a Random Forest machine learning model. This project demonstrates the integration of sports data, data science, and web development in an interactive, user-friendly format.
 
 ---
 
-## 🚀 Highlights
+## 🚦 Features
 
-- **Real-Time Insights:** Fetches up-to-date race data using the [Ergast Developer API](https://ergast.com/mrd/)
-- **Comprehensive Analysis:** Considers driver stats, team strength, and track features
-- **Predictive Power:** Utilizes a Random Forest model to forecast winners
-- **Interactive Web App:** Easy-to-use Flask web interface for quick predictions
-
----
-
-## 🖥️ Project Demo
-
-![App Screenshot](templates/demo.png)
-
-
-1. **Home Page:** Enter the F1 season and race number.
-2. **Prediction:** The app fetches live data, runs the prediction model, and displays the expected winner and team.
+- **Live Data Integration:** Automatically fetches up-to-date race statistics.
+- **Insightful Analytics:** Considers driver performance, constructor strength, and track details.
+- **Robust Predictions:** Utilizes a trained Random Forest model for winner forecasting.
+- **Modern Web App:** Built with Flask, featuring an intuitive interface.
 
 ---
 
-## ⚡ Quickstart
+## 🖥️ Preview
 
-1. **Clone the Repo**
+<p align="center">
+  <img src="templates/demo.png" width="600" alt="App Screenshot">
+</p>
+
+---
+
+## 🚀 Quick Start
+
+1. **Clone the Repository**
     ```
-    git clone [https://github.com/Nirvaan05/F1-Winner-Predictor-]
+    git clone https://github.com/Nirvaan05/F1-Winner-Predictor-.git
     cd Formula1_project
     ```
 
 2. **Install Dependencies**
-    - Ensure you have Python 3.8+ installed.
     ```
     pip install -r requirements.txt
     ```
 
-3. **Run the App**
+3. **Run the Application**
     ```
     python app.py
     ```
-    - Open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
+    Then visit [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
 ---
 
-## 📝 How to Use
+## 🕹️ Usage
 
-1. Visit [http://127.0.0.1:5000](http://127.0.0.1:5000)
-2. Enter the **season** (e.g., 2024) and **race number** (e.g., 5)
-3. Click **Predict**
-4. The predicted Grand Prix winner and team will be displayed
-
----
-
-## 🛠️ Troubleshooting
-
-- **API Connection Problems:**  
-  Can’t fetch data? Double-check your internet or firewall. Wait a few minutes and try again.
-- **Blank Results:**  
-  Ensure the Ergast API is reachable. Any errors should appear on the results page.
+1. Enter the **F1 season** and **race number**.
+2. Click **Predict**.
+3. View the predicted winner and team for the selected Grand Prix.
 
 ---
 
-## 📚 Data References
 
-- [Ergast Developer API](https://ergast.com/mrd/)
-- Local F1 CSV datasets (included)
-
----
-
-## 💡 Tech Stack
+## 🧩 Tech Stack
 
 - Python 3
 - Flask
 - Pandas
 - scikit-learn (Random Forest)
-- HTML/CSS & Jinja2 templates
+- HTML/CSS (Jinja2 templates)
 
 ---
 
-## 📜 License
+## ℹ️ Troubleshooting
 
-This project is for educational, experimentation, and demonstration purposes only.
-
----
-
-## 🙏 Credits
-
-- Huge thanks to [Ergast Developer API](https://ergast.com/mrd/) for providing the F1 data backbone!
-- Appreciation to the Formula 1 community for inspiration and resources
+- **API Connection Error:**  
+  Confirm internet access and API availability.
+- **No Prediction Output:**  
+  Ensure valid inputs and verify that the Ergast API is responsive.
 
 ---
 
-Pull over for a star, overtake with a fork, and let’s take this project to the podium! 🏆
+## 📊 Data Sources
 
+- [Ergast Developer API](https://ergast.com/mrd/)
+- Local F1 CSV datasets (provided in `/data`)
+
+---
+
+## 📄 License
+
+This project is for educational and demonstration use only.
+
+---
+
+## 🙏 Acknowledgements
+
+- [Ergast Developer API](https://ergast.com/mrd/)
+- The global Formula 1 community
+
+---
 
