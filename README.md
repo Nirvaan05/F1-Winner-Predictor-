@@ -15,23 +15,11 @@ Welcome! I’m Nirvaan, and this is my project to predict Formula 1 race winners
 
 ## 🖥️ Project Demo
 
+![App Screenshot](templates/demo.png)
+
+
 1. **Home Page:** Enter the F1 season and race number.
 2. **Prediction:** The app fetches live data, runs the prediction model, and displays the expected winner and team.
-
----
-
-## 📂 Project Structure
-
-Formula1_project/
-│
-├── app.py # Flask backend
-├── requirements.txt # Python dependencies
-├── templates/
-│ ├── index.html # Main web page
-│ └── result.html # Prediction result page
-├── *.csv # F1 datasets (drivers, races, results, etc.)
-└── f1_prediction.ipynb # Data exploration & model notebook
-
 
 ---
 
@@ -39,7 +27,7 @@ Formula1_project/
 
 1. **Clone the Repo**
     ```
-    git clone https://github.com/aaanurag0011/Formula1_project.git
+    git clone [https://github.com/Nirvaan05/F1-Winner-Predictor-]
     cd Formula1_project
     ```
 
